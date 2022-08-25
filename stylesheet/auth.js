@@ -21,12 +21,7 @@ export const styles = StyleSheet.create({
       fontSize: 30,
       fontStyle: "normal",
     },
-    musicPlayer: {
-      height: "90%",
-      display: "flex",
-      alignItems: "center",
-      paddingTop: 80,
-    },
+
     logoContainer: {
       height: 170,
       marginTop: "30%",
@@ -62,7 +57,7 @@ export const styles = StyleSheet.create({
     },
   
     forgot_button: {
-      height: 30,
+      height: 20,
       marginBottom: 30,
       color:"#2953BB"
     },

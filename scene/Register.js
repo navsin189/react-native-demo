@@ -11,7 +11,7 @@ import {
 
 import {styles} from "../stylesheet/auth"
 
-export default function Register() {
+export default function Register({navigation}) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
@@ -47,7 +47,7 @@ export default function Register() {
           </View>
 
           <TouchableOpacity>
-            <Text style={styles.forgot_button}>Forgot Password?</Text>
+            <Text style={styles.forgot_button} onPress={() => navigation.navigate('Login')}>Have an Account? Login</Text>
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.loginBtn}>
