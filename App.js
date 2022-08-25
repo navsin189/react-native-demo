@@ -13,12 +13,13 @@ import {
 // import { Icon } from "@rneui/themed";
 // import { FAB } from "@rneui/themed";
 import Login from "./scene/Login"
+import Register from "./scene/Register"
 
 export default function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
-    <Login />
+    <Register />
   );
 }
 
