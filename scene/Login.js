@@ -53,7 +53,7 @@ export default function Login({navigation}) {
             <Text style={styles.forgot_button} onPress={() => navigation.navigate('Register')}>Not Registered?Click here</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.loginBtn}>
-            <Text style={styles.loginText}>LOGIN</Text>
+            <Text style={styles.loginText} onPress={() => navigation.navigate('Dashboard')}>LOGIN</Text>
           </TouchableOpacity>
         </View>
       </SafeAreaView>
